@@ -1,0 +1,115 @@
+h1
+{
+ text-align: center;
+}
+h2
+{
+    margin: 10px;
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+.img_fig
+{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 6px solid goldenrod;
+}
+.fiche
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fiche_description
+{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10px;
+}
+.fiche_description p
+{
+    font-size: 16px;
+}
+.fiche_description strong
+{
+    font-size: 20px;
+}
+.fiche_caractéristiques
+{
+    margin-left: 20px;
+}
+.description
+{
+    margin: 35px;
+    font-size: 16px;
+}
+.autre_figurines
+{
+    display: flex;
+    overflow: scroll;
+    height: 400;
+}
+
+.font_img
+{
+    opacity: 50%;
+    width: 100%;
+}
+.text
+{
+    background: rgba(32, 40, 98, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+    color: white;
+    width: 30%;
+}
+
+.image-container 
+{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(61, 67, 99);
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+nav ul li {
+    display: inline; /* Affiche les éléments de la liste horizontalement */
+}
+
+nav ul li a {
+    display: block; /* Affiche les liens comme des blocs */
+    padding: 10px 20px; /* Espacement interne des liens */
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+nav ul li a:hover {
+    background-color: rgb(79,90,155);
+}
+

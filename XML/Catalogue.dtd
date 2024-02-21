@@ -1,0 +1,31 @@
+<!ELEMENT catalogue (figurine+)>
+
+<!ELEMENT figurine (nom, theme, description, caracteristiques, prix, photos)>
+<!ATTLIST figurine 
+    id ID #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+
+<!ELEMENT theme (#PCDATA)>
+<!ATTLIST theme 
+    categorie (StarWars|HarryPotter|Ninjago|Simpson|DCComics|Aucune) "Aucune">
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT caracteristiques (sortie, nombre_de_pieces)>
+
+<!ELEMENT sortie (#PCDATA)>
+
+<!ELEMENT nombre_de_pieces (#PCDATA)>
+<!ATTLIST nombre_de_pieces 
+    nombre CDATA #REQUIRED>
+
+<!ELEMENT photos (#PCDATA)>
+<!ATTLIST photos
+    chemin CDATA #REQUIRED
+    lien CDATA #REQUIRED>
+
+
+<!ELEMENT prix (#PCDATA)>
+<!ATTLIST prix
+    prix CDATA #REQUIRED>

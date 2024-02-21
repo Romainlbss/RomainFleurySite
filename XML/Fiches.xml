@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<!DOCTYPE catalogue SYSTEM "Catalogue.dtd">
+<catalogue>
+    <figurine id="fig001">
+        <nom>Sensei Wu</nom>
+        <theme categorie="Ninjago"></theme>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua. Porttitor leo a diam sollicitudin. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. 
+            Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Posuere ac ut consequat semper viverra. 
+            Viverra nam libero justo laoreet sit. Auctor neque vitae tempus quam pellentesque nec nam aliquam. 
+            Nunc consequat interdum varius sit amet mattis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+            Nisl nunc mi ipsum faucibus vitae aliquet. Lobortis mattis aliquam faucibus purus in massa. Urna duis convallis 
+            convallis tellus id interdum velit laoreet. Diam phasellus vestibulum lorem sed risus. Id velit ut tortor pretium 
+            viverra suspendisse potenti nullam. A diam sollicitudin tempor id eu nisl nunc.
+        </description>
+        <caracteristiques>
+            <sortie>2019</sortie>
+            <nombre_de_pieces nombre="6"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="5,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-ninjago-sensei-wu-legacy.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig001.xhtml"></photos>
+    </figurine>
+    <figurine id="fig002">
+        <nom>Luke Skywalker</nom>
+        <theme categorie="StarWars"></theme>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua. Porttitor leo a diam sollicitudin. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. 
+            Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Posuere ac ut consequat semper viverra. 
+            Viverra nam libero justo laoreet sit. Auctor neque vitae tempus quam pellentesque nec nam aliquam. 
+            Nunc consequat interdum varius sit amet mattis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+            Nisl nunc mi ipsum faucibus vitae aliquet. Lobortis mattis aliquam faucibus purus in massa. Urna duis convallis 
+            convallis tellus id interdum velit laoreet. Diam phasellus vestibulum lorem sed risus. Id velit ut tortor pretium 
+            viverra suspendisse potenti nullam. A diam sollicitudin tempor id eu nisl nunc.
+        </description>
+        <caracteristiques>
+            <sortie>2022</sortie>
+            <nombre_de_pieces nombre="4"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="9,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-star-wars-luke-skywalker-cloud-city.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig002.xhtml"></photos>
+    </figurine>
+    <figurine id="fig003">
+        <nom>Harry Potter</nom>
+        <theme categorie="HarryPotter"></theme>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua. Porttitor leo a diam sollicitudin. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. 
+            Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Posuere ac ut consequat semper viverra. 
+            Viverra nam libero justo laoreet sit. Auctor neque vitae tempus quam pellentesque nec nam aliquam. 
+            Nunc consequat interdum varius sit amet mattis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+            Nisl nunc mi ipsum faucibus vitae aliquet. Lobortis mattis aliquam faucibus purus in massa. Urna duis convallis 
+            convallis tellus id interdum velit laoreet. Diam phasellus vestibulum lorem sed risus. Id velit ut tortor pretium 
+            viverra suspendisse potenti nullam. A diam sollicitudin tempor id eu nisl nunc.
+        </description>
+        <caracteristiques>
+            <sortie>2019</sortie>
+            <nombre_de_pieces nombre="4"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="6,66€"></prix>
+        <photos chemin="/Images/harry_potter_lego.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig003.xhtml"></photos>
+    </figurine>
+    <figurine id="fig004">
+        <nom>Bart</nom>
+        <theme categorie="Simpson"></theme>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua. Porttitor leo a diam sollicitudin. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. 
+            Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Posuere ac ut consequat semper viverra. 
+            Viverra nam libero justo laoreet sit. Auctor neque vitae tempus quam pellentesque nec nam aliquam. 
+            Nunc consequat interdum varius sit amet mattis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+            Nisl nunc mi ipsum faucibus vitae aliquet. Lobortis mattis aliquam faucibus purus in massa. Urna duis convallis 
+            convallis tellus id interdum velit laoreet. Diam phasellus vestibulum lorem sed risus. Id velit ut tortor pretium 
+            viverra suspendisse potenti nullam. A diam sollicitudin tempor id eu nisl nunc.
+        </description>
+        <caracteristiques>
+            <sortie>2015</sortie>
+            <nombre_de_pieces nombre="5"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="8,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-simpson-serie-2-bart.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig004.xhtml"></photos>
+    </figurine>
+    <figurine id="fig005">
+        <nom>Arin</nom>
+        <theme categorie="Ninjago"></theme>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua. Porttitor leo a diam sollicitudin. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. 
+            Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Posuere ac ut consequat semper viverra. 
+            Viverra nam libero justo laoreet sit. Auctor neque vitae tempus quam pellentesque nec nam aliquam. 
+            Nunc consequat interdum varius sit amet mattis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+            Nisl nunc mi ipsum faucibus vitae aliquet. Lobortis mattis aliquam faucibus purus in massa. Urna duis convallis 
+            convallis tellus id interdum velit laoreet. Diam phasellus vestibulum lorem sed risus. Id velit ut tortor pretium 
+            viverra suspendisse potenti nullam. A diam sollicitudin tempor id eu nisl nunc.
+        </description>
+        <caracteristiques>
+            <sortie>2023</sortie>
+            <nombre_de_pieces nombre="7"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="4,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-ninjago-arin.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig005.xhtml"></photos>
+    </figurine>
+    <figurine id="fig006">
+        <nom>Le Joker</nom>
+        <theme categorie="DCComics"></theme>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua. Porttitor leo a diam sollicitudin. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. 
+            Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Posuere ac ut consequat semper viverra. 
+            Viverra nam libero justo laoreet sit. Auctor neque vitae tempus quam pellentesque nec nam aliquam. 
+            Nunc consequat interdum varius sit amet mattis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+            Nisl nunc mi ipsum faucibus vitae aliquet. Lobortis mattis aliquam faucibus purus in massa. Urna duis convallis 
+            convallis tellus id interdum velit laoreet. Diam phasellus vestibulum lorem sed risus. Id velit ut tortor pretium 
+            viverra suspendisse potenti nullam. A diam sollicitudin tempor id eu nisl nunc.
+        </description>
+        <caracteristiques>
+            <sortie>2020</sortie>
+            <nombre_de_pieces nombre="6"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="9,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-dc-comics-le-joker.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig006.xhtml"></photos>
+    </figurine>
+</catalogue>
