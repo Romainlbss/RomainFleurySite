@@ -8,7 +8,7 @@
 
 <!ELEMENT theme (#PCDATA)>
 <!ATTLIST theme 
-    categorie (StarWars|HarryPotter|Ninjago|Simpson|DCComics|Aucune) "Aucune">
+    categorie (StarWars|HarryPotter|Ninjago|Simpson|DCComics|Marvel|Disney|Aucune) "Aucune">
 
 <!ELEMENT description (#PCDATA)>
 

@@ -19,4 +19,4 @@ def transform_xml_to_html(xml_filename, xslt_filename, output_filename):
 
 # Exemple d'utilisation
 if __name__ == "__main__":
-    transform_xml_to_html('XML/Fiches.xml', 'fiche_transform.xslt', 'Fiches_Figurines/fig006.xhtml')
+    transform_xml_to_html('XML/Fiches.xml', 'fiche_transform.xslt', 'Content/Collection/fig006.xhtml')

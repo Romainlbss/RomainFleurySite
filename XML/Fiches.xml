@@ -19,7 +19,7 @@
             <nombre_de_pieces nombre="6"></nombre_de_pieces>
         </caracteristiques>
         <prix prix="5,99€"></prix>
-        <photos chemin="/Images/minifigure-lego-ninjago-sensei-wu-legacy.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig001.xhtml"></photos>
+        <photos chemin="/Images/minifigure-lego-ninjago-sensei-wu-legacy.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig001.xhtml"></photos>
     </figurine>
     <figurine id="fig002">
         <nom>Luke Skywalker</nom>
@@ -39,7 +39,7 @@
             <nombre_de_pieces nombre="4"></nombre_de_pieces>
         </caracteristiques>
         <prix prix="9,99€"></prix>
-        <photos chemin="/Images/minifigure-lego-star-wars-luke-skywalker-cloud-city.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig002.xhtml"></photos>
+        <photos chemin="/Images/minifigure-lego-star-wars-luke-skywalker-cloud-city.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig002.xhtml"></photos>
     </figurine>
     <figurine id="fig003">
         <nom>Harry Potter</nom>
@@ -59,7 +59,7 @@
             <nombre_de_pieces nombre="4"></nombre_de_pieces>
         </caracteristiques>
         <prix prix="6,66€"></prix>
-        <photos chemin="/Images/harry_potter_lego.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig003.xhtml"></photos>
+        <photos chemin="/Images/harry_potter_lego.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig003.xhtml"></photos>
     </figurine>
     <figurine id="fig004">
         <nom>Bart</nom>
@@ -79,11 +79,11 @@
             <nombre_de_pieces nombre="5"></nombre_de_pieces>
         </caracteristiques>
         <prix prix="8,99€"></prix>
-        <photos chemin="/Images/minifigure-lego-simpson-serie-2-bart.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig004.xhtml"></photos>
+        <photos chemin="/Images/minifigure-lego-simpson-serie-2-bart.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig004.xhtml"></photos>
     </figurine>
     <figurine id="fig005">
-        <nom>Arin</nom>
-        <theme categorie="Ninjago"></theme>
+        <nom>Lisa</nom>
+        <theme categorie="Simpson"></theme>
         <description>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
             magna aliqua. Porttitor leo a diam sollicitudin. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. 
@@ -95,11 +95,11 @@
             viverra suspendisse potenti nullam. A diam sollicitudin tempor id eu nisl nunc.
         </description>
         <caracteristiques>
-            <sortie>2023</sortie>
-            <nombre_de_pieces nombre="7"></nombre_de_pieces>
+            <sortie>2015</sortie>
+            <nombre_de_pieces nombre="4"></nombre_de_pieces>
         </caracteristiques>
-        <prix prix="4,99€"></prix>
-        <photos chemin="/Images/minifigure-lego-ninjago-arin.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig005.xhtml"></photos>
+        <prix prix="9,99€"></prix>
+        <photos chemin="/Images/minifigure_lego_lisa.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig005.xhtml"></photos>
     </figurine>
     <figurine id="fig006">
         <nom>Le Joker</nom>
@@ -115,6 +115,123 @@
             <nombre_de_pieces nombre="6"></nombre_de_pieces>
         </caracteristiques>
         <prix prix="9,99€"></prix>
-        <photos chemin="/Images/minifigure-lego-dc-comics-le-joker.jpg" lien="http://127.0.0.1:5500/Fiches_Figurines/fig006.xhtml"></photos>
+        <photos chemin="/Images/minifigure-lego-dc-comics-le-joker.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig006.xhtml"></photos>
+    </figurine>
+    <figurine id="fig007">
+        <nom>Miles Morales</nom>
+        <theme categorie="Marvel"></theme>
+        <description>
+            Miles Morales est un jeune garçon de 13 ans (bientôt 14 !) qui a des pouvoirs similaires à Spider-Man. Miles vit dans un univers alternatif où le Spider-Man original a sacrifié sa vie pour sauver la planète. Fort de ses nouveaux pouvoirs d'homme-araignée et prenant Peter Parker comme modèle, il a revêtu le costume de Spider-Man pour démontrer qu'un grand pouvoir impliquait de grandes responsabilités.
+        </description>
+        <caracteristiques>
+            <sortie>2023</sortie>
+            <nombre_de_pieces nombre="3"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="9,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-marvel-spider-man-miles-morales.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig007.xhtml"></photos>
+    </figurine>
+    <figurine id="fig008">
+        <nom>Tony Stark</nom>
+        <theme categorie="Marvel"></theme>
+        <description>
+            Dans son armure tactique d'Iron Man, Tony Stark peut presque tout faire : survoler les océans, tirer des rayons répulseurs, et lutter contre les super criminels et les invasions extraterrestres. Mais même hors de son armure high-tech, le milliardaire est une force redoutable, en raison de son génie et de son imagination inventive.
+        </description>
+        <caracteristiques>
+            <sortie>2020</sortie>
+            <nombre_de_pieces nombre="4"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="7,99€"></prix>
+        <photos chemin="/Images/TonyStark.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig008.xhtml"></photos>
+    </figurine>
+    <figurine id="fig009">
+        <nom>Hulk</nom>
+        <theme categorie="Marvel"></theme>
+        <description>
+            Le géant et surpuissant héros vert connu sous le nom de Hulk a vu le jour lorsque le docteur Bruce Banner s'est accidentellement retrouvé exposé à une dose massive de rayons gamma. Bien qu'il ait fait cavalier seul durant des années, Hulk a récemment fait équipe à la fois avec les Avengers et avec son propre groupe de héros exposés, comme lui, à des rayons gamma. Partout où les forces du mal menacent le monde, on peut compter sur l'incroyable Hulk pour les ÉCRASER !
+        </description>
+        <caracteristiques>
+            <sortie>2023</sortie>
+            <nombre_de_pieces nombre="3"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="8,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-marvel-hulk.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig009.xhtml"></photos>
+    </figurine>
+    <figurine id="fig010">
+        <nom>Peter Pan</nom>
+        <theme categorie="Disney"></theme>
+        <description>
+            Garçon magique et espiègle qui refuse de grandir, Peter Pan vit sur l'île lointaine du Pays imaginaire, où il vit des aventures quotidiennes à la tête des Enfants perdus et où il se bat contre un équipage de vilains pirates sous la houlette du capitaine Crochet. Avec l'aide de la poussière d'or de son amie la fée Clochette, Peter Pan peut même décoller et voler. Cependant, il doit faire attention à ne pas perdre son ombre.
+        </description>
+        <caracteristiques>
+            <sortie>2023</sortie>
+            <nombre_de_pieces nombre="4"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="7,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-disney-peter-pan.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig010.xhtml"></photos>
+    </figurine>
+    <figurine id="fig011">
+        <nom>Anna</nom>
+        <theme categorie="Disney"></theme>
+        <description>
+            Anna est née pour l'aventure et l'amusement ! Maintenant que l'été est de retour à Arendelle, elle s'amuse encore plus avec Kristoff, Olaf et sa sœur Elsa, surtout quand elle fait de la magie !
+        </description>
+        <caracteristiques>
+            <sortie>2019</sortie>
+            <nombre_de_pieces nombre="5"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="8,99€"></prix>
+        <photos chemin="/Images/Anna.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig011.xhtml"></photos>
+    </figurine>
+    <figurine id="fig012">
+        <nom>Robin des Bois</nom>
+        <theme categorie="Disney"></theme>
+        <description>
+            L'intrépide et courageux Robin des Bois arrive toujours à temps pour sauver la situation. Qu'il grimpe au lierre pour sauver une demoiselle en détresse, saute des fortifications pour se battre en duel avec un comte maléfique ou tire habilement une flèche avec son arc pour aider un ami en danger, Robin incarne l'esprit chevaleresque des plus beaux contes de fées.
+        </description>
+        <caracteristiques>
+            <sortie>2023</sortie>
+            <nombre_de_pieces nombre="5"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="7,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-disney-100-ans-robin-des-bois.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig012.xhtml"></photos>
+    </figurine>
+    <figurine id="fig013">
+        <nom>Ron Weasley</nom>
+        <theme categorie="HarryPotter"></theme>
+        <description>
+            Membre d'une grande famille de sorciers, Ron Weasley™ est le meilleur ami de Harry Potter™ et d'Hermione Granger™. Ron est le camarade le plus loyal qu'on pourrait imaginer et on peut toujours compter sur lui en cas de coup dur. Croûtard™, son rat de compagnie, est un rongeur étrange qui renferme ses propres secrets.
+        </description>
+        <caracteristiques>
+            <sortie>2022</sortie>
+            <nombre_de_pieces nombre="5"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="4,99€"></prix>
+        <photos chemin="/Images/minifigure-lego-harry-potter-ron-weasley.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig013.xhtml"></photos>
+    </figurine>
+    <figurine id="fig014">
+        <nom>Tom Jedusor</nom>
+        <theme categorie="HarryPotter"></theme>
+        <description>
+            En tant que jeune sorcier, Tom Elvis Jedusor était obsédé par l'idée de devenir extrêmement puissant et immortel. Rejetant son ancienne identité, il se rebaptise Lord Voldemort™ et recrute une armée de sorciers et de créatures maléfiques pour le servir dans sa conquête du Monde des sorciers. Plus communément appelé Celui-Dont-On-Ne-Doit-Pas-Prononcer-Le-Nom, c'est le sorcier maléfique le plus puissant de tous les temps.
+        </description>
+        <caracteristiques>
+            <sortie>2021</sortie>
+            <nombre_de_pieces nombre="4"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="8,99€"></prix>
+        <photos chemin="/Images/TomJedusor.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig014.xhtml"></photos>
+    </figurine>
+    <figurine id="fig015">
+        <nom>White</nom>
+        <theme categorie="Aucune"></theme>
+        <description>
+            Amusez-vous à peindre cette figurine pour un max de fun.
+        </description>
+        <caracteristiques>
+            <sortie>2021</sortie>
+            <nombre_de_pieces nombre="4"></nombre_de_pieces>
+        </caracteristiques>
+        <prix prix="5,99€"></prix>
+        <photos chemin="/Images/White.jpg" lien="http://127.0.0.1:5500/Content/Collection/fig015.xhtml"></photos>
     </figurine>
 </catalogue>

@@ -9,18 +9,17 @@
             <link rel = "stylesheet" href="/Styles/fichestyle.css"/>
           </head>
           <body>
-            <div class="image-container">
-                <img class="font_img" src="/Images/Accueil_Landscape.jpg"/>
-                <div class="text">
-                  <p>Lego Paradise</p>
-                </div>
-              </div>
-              <nav>
+            <div>
+                <img class="header_img" src="/Images/Header.jpg"/>
+            </div>
+            <nav>
                 <ul>
-                    <li><a href="http://127.0.0.1:5500/index.xhtml">Catalogue</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.xhtml#">Catalogue</a></li>
                     <li><a href="#">Histoire</a></li>
                     <li><a href="#">À propos</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="#">Miscellaneous</a></li>
+                    <li><a href="#">Formulaires</a></li>
                 </ul>
               </nav>
             <h1><xsl:value-of select="catalogue/figurine[@id='fig006']/nom"/></h1>
@@ -29,11 +28,11 @@
                 <img class="img_fig" src="{$image_path}"/>
                 <div class="fiche_description">
                     <p><strong>Nom</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/nom"/></p>
-                    <p><strong>Thème</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/theme"/></p>
+                    <p><strong>Thème</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/theme/@categorie"/></p>
                     <p><strong>Caractéristiques : </strong></p>
                     <div class="fiche_caractéristiques">
-                        <p>- <strong>Année de sortie</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/sortie"/></p>
-                        <p>- <strong>Nombre de pièces</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/nombre_de_pieces/@nombre"/></p>
+                        <p>- <strong>Année de sortie</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/caracteristiques/sortie"/></p>
+                        <p>- <strong>Nombre de pièces</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/caracteristiques/nombre_de_pieces/@nombre"/></p>
                     </div>
                     <p><strong>Prix</strong> : <xsl:value-of select="catalogue/figurine[@id='fig006']/prix/@prix"/></p>
                 </div>
