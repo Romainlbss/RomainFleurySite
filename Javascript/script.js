@@ -11,22 +11,24 @@ document.addEventListener("DOMContentLoaded", function()
 
 
     var images = [
-        "/Images/Anna.jpg",
-        "/Images/White.jpg",
-        "/Images/harry_potter_lego.jpg",
-        "/Images/minifigure-lego-dc-comics-le-joker.jpg",
-        "/Images/minifigure-lego-disney-100-ans-robin-des-bois.jpg",
-        "/Images/minifigure-lego-disney-peter-pan.jpg",
-        "/Images/minifigure-lego-harry-potter-ron-weasley.jpg",
-        "/Images/minifigure-lego-marvel-hulk.jpg",
-        "/Images/minifigure-lego-marvel-spider-man-miles-morales.jpg",
-        "/Images/minifigure-lego-ninjago-sensei-wu-legacy.jpg",
-        "/Images/minifigure-lego-simpson-serie-2-bart.jpg",
-        "/Images/minifigure-lego-star-wars-luke-skywalker-cloud-city.jpg",
-        "/Images/minifigurine_lego_lisa.jpg",
-        "/Images/TomJedusor.jpg",
-        "/Images/TonyStark.jpg"
+      "../Fleury_Fournet/Images/Anna.jpg",
+      "../Fleury_Fournet/Images/White.jpg",
+      "../Fleury_Fournet/Images/harry_potter_lego.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-dc-comics-le-joker.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-disney-100-ans-robin-des-bois.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-disney-peter-pan.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-harry-potter-ron-weasley.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-marvel-hulk.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-marvel-spider-man-miles-morales.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-ninjago-sensei-wu-legacy.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-simpson-serie-2-bart.jpg",
+      "../Fleury_Fournet/Images/minifigure-lego-star-wars-luke-skywalker-cloud-city.jpg",
+      "../Fleury_Fournet/Images/minifigurine_lego_lisa.jpg",
+      "../Fleury_Fournet/Images/TomJedusor.jpg",
+      "../Fleury_Fournet/Images/TonyStark.jpg"
       ];
+
+      
       
       var currentImageIndex = 0;
       var imageElement = document.getElementById('imageCaroussel');
@@ -38,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function()
       }
 
       function startCarousel() {
-        interval = setInterval(nextImage, 1000);
+        interval = setInterval(nextImage, 10);
       }
 
       function stopCarousel() {
@@ -60,21 +62,21 @@ document.addEventListener("DOMContentLoaded", function()
       startCarousel();
 
       var fiches = [
-        "http://127.0.0.1:5500/Content//Collection/fig001.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig002.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig003.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig004.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig005.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig006.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig007.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig008.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig009.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig010.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig011.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig012.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig013.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig014.xhtml",
-        "http://127.0.0.1:5500/Content//Collection/fig015.xhtml"
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig001.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig002.xhtml",
+        "/Users/romainfournet/WebDev/../Fleury_Fournet/Content/Collection/fig003.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig004.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig005.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig006.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig007.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig008.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig009.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig010.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig011.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig012.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig013.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig014.xhtml",
+        "/Users/romainfournet/WebDev/Fleury_Fournet/Content/Collection/fig015.xhtml"
       ] 
 
       var buttonElement = document.getElementById('aléathouarsButton');
@@ -87,57 +89,20 @@ document.addEventListener("DOMContentLoaded", function()
       aleatoirFiche();
       setInterval(aleatoirFiche, 10);
 
+      const baseStyle = document.getElementById('StyleSheet');
+      const impairedStyle = document.getElementById('StyleSheetImpaired');
+      let isBaseStyle = false;
       function ChangeCss (){
-        var styleAccueil = document.getElementById('StyleSheet');
-        var styleFig001 = document.getElementById('StyleFig001');
-        var styleFig002 = document.getElementById('StyleFig002');
-        var styleFig003 = document.getElementById('StyleFig003');
-        var styleFig004 = document.getElementById('StyleFig004');
-        var styleFig005 = document.getElementById('StyleFig005');
-        var styleFig006 = document.getElementById('StyleFig006');
-        var styleFig007 = document.getElementById('StyleFig007');
-        var styleFig008 = document.getElementById('StyleFig008');
-        var styleFig009 = document.getElementById('StyleFig009');
-        var styleFig010 = document.getElementById('StyleFig010');
-        var styleFig011 = document.getElementById('StyleFig011');
-        var styleFig012 = document.getElementById('StyleFig012');
-        var styleFig013 = document.getElementById('StyleFig013');
-        var styleFig014 = document.getElementById('StyleFig014');
-        var styleFig015 = document.getElementById('StyleFig015');
-        if (styleAccueil.href == "http://127.0.0.1:5500/Styles/stylesheet.css") {
-          styleAccueil.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig001.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig002.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig003.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig004.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig005.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig006.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig007.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig008.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig009.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig010.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig011.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig012.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig013.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig014.href = "/Styles/stylesheet_visually_impaired.css";
-          styleFig015.href = "/Styles/stylesheet_visually_impaired.css";
-        } else {
-          styleAccueil.href = "/Styles/stylesheet.css";
-          styleFig001.href = "/Styles/stylesheet.css";
-          styleFig001.href = "/Styles/stylesheet.css";
-          styleFig002.href = "/Styles/stylesheet.css";
-          styleFig003.href = "/Styles/stylesheet.css";
-          styleFig004.href = "/Styles/stylesheet.css";
-          styleFig005.href = "/Styles/stylesheet.css";
-          styleFig006.href = "/Styles/stylesheet.css";
-          styleFig008.href = "/Styles/stylesheet.css";
-          styleFig009.href = "/Styles/stylesheet.css";
-          styleFig010.href = "/Styles/stylesheet.css";
-          styleFig011.href = "/Styles/stylesheet.css";
-          styleFig012.href = "/Styles/stylesheet.css";
-          styleFig013.href = "/Styles/stylesheet.css";
-          styleFig014.href = "/Styles/stylesheet.css";
-          styleFig015.href = "/Styles/stylesheet.css";
+        isBaseStyle = !isBaseStyle;
+        if (isBaseStyle)
+        {
+          baseStyle.disabled = true;
+          impairedStyle.disabled = false;
+        }
+        else
+        {
+          baseStyle.disabled = false;
+          impairedStyle.disabled = true;
         }
       }
       

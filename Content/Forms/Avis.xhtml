@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title> Questionaire </title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../../Styles/stylesheet_visually_impaired.css" id="StyleSheetImpaired"/>
+        <link rel="stylesheet" href="../../Styles/stylesheet.css" id="StyleSheet"/>
+        <script src="../../Javascript/scriptForms.js"></script>
+    </head>
+    <body>
+        <div>
+            <img class="header_img" src="../../Images/Header.jpg"/>
+          </div>
+          <div id="dateTime"></div>
+          <nav>
+            <ul>
+              <li>
+                <a href="../../index.xhtml">Catalogue</a>
+              </li>
+              <li>
+                <a href="#">Histoire</a>
+              </li>
+              <li>
+                <a href="#">&#192; propos</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Miscellaneous</a>
+              </li>
+              <li>
+                <a href="../../Pages/Formulaires.xhtml">Formulaires</a>
+              </li>
+            </ul>
+          </nav>
+        <h1>Donnez nous votre avis</h1>
+        <form>
+            <div class="questionaire">
+                <label for="name">Votre nom :</label>
+                <input type="text" id="name" name="name" required="true"/>
+            </div>
+            <div class="questionaire">
+                <label for="age">Votre âge :</label>
+                <input type="number" id="age" name="age" required="true"/>
+            </div>
+            <div class="questionaire">
+                <label for="feedback">Vos commentaires :</label>
+                <textarea id="feedback" name="feedback"></textarea>
+            </div>
+            <div class="questionaire">
+                <label for="rating">Votre note :</label>
+                <select id="rating" name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="questionaire">
+                <button type="button" id="submit">Soumettre</button>
+            </div>
+        </form>
+    </body>
+</html>
